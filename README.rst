@@ -39,7 +39,7 @@ The pylon_camera-pkg requires the pylonSDK to be installed on your system. Pleas
 然后按照INSTALL的安装步骤进行安转
 
 或者第二种安装办法  
-mkdir -p pylon-5.2.0.13457-x86_64 
+mkdir -p pylon-5.2.0.13457-x86_64  
 cd pylon-5.2.0.13457-x86_64  
 git clone https://github.com/wangxizhe/pylon-5.2.0.13457-x86_64.git  
 sudo tar -C /opt -xzf pylonSDK*.tar.gz  
