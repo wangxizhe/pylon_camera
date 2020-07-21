@@ -29,14 +29,15 @@ The package opens either a predefined camera (using a given 'device_user_id' par
 |
 
 ******
-**Installation**
+## Installation
 ******
 The package has been tested for ROS-Indigo and ROS-Kinetic.
 
 The pylon_camera-pkg requires the pylonSDK to be installed on your system. Please download and install the pylon debian package for your architecture from:
 
-``https://www.baslerweb.com/de/support/downloads/downloads-software/``
+``https://www.baslerweb.com/de/support/downloads/downloads-software/``  
 然后按照INSTALL的安装步骤进行安转  
+
 或者第二种安装办法  
 mkdir -p pylon-5.2.0.13457-x86_64  
 cd pylon-5.2.0.13457-x86_64  
@@ -44,6 +45,7 @@ git clone https://github.com/wangxizhe/pylon-5.2.0.13457-x86_64.git
 sudo tar -C /opt -xzf pylonSDK*.tar.gz  
 ./setup-usb.sh  
 cd  
+
 In order to build the package, you need to configure rosdep (i.e. the ROS command-line tool for checking and installing system dependencies for ROS packages) such that
 it knows how to resolve this dependency. This can be achieved by executing the following commands:
 
